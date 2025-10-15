@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Helvetica;
 }
+
 .top {
     display: flex;
     text-align: center;
@@ -18,6 +19,7 @@
     background-color: rgb(237, 237, 237);
     letter-spacing: 1.05px;
 }
+
 button {
     font-size: 1rem;
     padding: 4px;
@@ -39,32 +41,42 @@ button {
     list-style: none;
     justify-content: center;
 }
-.two{
-    height: 40vh;
+
+.two {
+    height: 70vh;
+    /* background-image: url(./pilot.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
 }
+
 .two h1 {
     text-align: center;
     padding-bottom: 6rem;
     font-size: 6.9rem;
-    margin-top: 9rem;
+    padding-top: 9rem;
 }
-.two a{
+
+.two a {
     text-decoration: none;
     color: black;
     padding-left: 5.5rem;
     padding-right: 5.5rem;
 }
-.three h1{
+
+.three h1 {
     text-align: center;
     font-size: 4.3rem;
     color: white;
     margin-bottom: 2rem;
+    padding-top: 9.5rem;
 }
-.three p{
+
+.three p {
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
-.three{
+
+.three {
     text-align: center;
     background-image: url(./img.avif);
     height: 100vh;
@@ -72,13 +84,15 @@ button {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 1rem;
+    padding-top: 1rem;
     margin-bottom: 1rem;
 }
-.three .third{
+
+.three .third {
     margin-bottom: 4rem;
 }
-.three a{
+
+.three a {
     text-decoration: none;
     color: #a9dcf6;
     background-color: white;
@@ -87,30 +101,40 @@ button {
     padding-right: 3rem;
     border-radius: 20px;
     font-size: 0.9rem;
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.437);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.437);
     transition: box-shadow 0.3s ease;
 }
-.forth{
+
+.forth {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 6%;
 }
-.foth p{
+
+.four {
+    align-items: center;
+    width: 39.5rem;
+    padding: 2rem;
+}
+
+.four p {
     margin-bottom: 1rem;
     font-size: 1.1rem;
     letter-spacing: 1.05px;
 }
-.foth h1{
+
+.four h1 {
     margin-bottom: 2.5rem;
-    font-size: 4rem;
+    font-size: 3rem;
 }
-.foth .forthe{
+
+.four .forthe {
     margin-bottom: 3rem;
 }
-.foth a{
-       text-decoration: none;
+
+.four a {
+    text-decoration: none;
     color: #a9dcf6;
     background-color: white;
     padding: 20px;
@@ -118,45 +142,89 @@ button {
     padding-right: 3rem;
     border-radius: 20px;
     font-size: 0.9rem;
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.437);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.437);
     transition: box-shadow 0.3s ease;
 }
-.forth img{
-    width: 112%;
-    height: 97%;
-    margin-left: 10%;
+
+.forth img {
+    width: 39.5rem;
+    height: 100vh;
 }
-.five{
+
+.five {
     text-align: center;
     line-height: 2;
     background-color: #a9dcf6;
-    /* border-radius: 20% 0; */
-    font-size: 1.2rem;
-    letter-spacing: 1.1px;
-    flex-wrap: wrap;
+    font-size: 1.1rem;
+    letter-spacing: 1.05px;
+    width: 99vw;
 }
-.five h1{
+
+.five h1 {
     color: white;
     font-size: 3rem;
 }
-.five .sec{
+
+.five .sec {
     color: black;
 }
-.five .fiv{
+
+.five .fiv {
     width: 35%;
     margin-left: auto;
     margin-right: auto;
 }
-.fifth{
+
+.fifth {
     display: flex;
     justify-content: center;
-    gap: 10%;
     text-align: center;
-    width: 65%;
     margin-left: auto;
     margin-right: auto;
     line-height: 2;
 }
-.fifth h1{
+
+.fifth h1 {
     font-size: 4rem;
+}
+
+.fifth .fivee {
+    width: 21rem;
+    padding: 2rem;
+}
+.six {
+    text-align: center;
+    line-height: 8;
+    font-size: 1rem;
+}
+.sev h4{
+    text-align: center;
+    line-height: 6;
+}
+.seven{
+    display: flex;
+    line-height: 2;    
+    margin-left: auto;
+    margin-right: auto;
+}
+.bi-chevron-left{
+    font-size: 2.5rem;
+    padding-right: 26rem;
+    padding-left: 2rem;
+}
+.bi-chevron-right{
+    margin-left: 26rem;
+    margin-right: 2rem;
+    font-size: 2.5rem;
+}
+.dots{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3;
+}
+#dot{
+    color: grey;
+}
+.eight{
+    text-align: center;
 }
