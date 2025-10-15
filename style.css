@@ -147,7 +147,7 @@ button {
 }
 
 .forth img {
-    width: 39.5rem;
+    width: 42rem;
     height: 100vh;
 }
 
@@ -226,5 +226,101 @@ button {
     color: grey;
 }
 .eight{
+    background-color: rgb(238, 238, 238);
+}
+.eight h1{
     text-align: center;
+    line-height: 4;
+    margin-top: 6rem;
+}
+.pic{
+    display: flex;
+    /* border: blue solid 2px; */
+    gap: 1.8rem;
+    justify-content: center;
+}
+.size img{
+    width: 24.925rem;
+    height: 20rem;
+}
+.size{
+    border: rgb(161, 161, 161) solid 2px;
+    width: 25rem;
+    line-height: 1.5;
+    background-color: rgb(225, 225, 225);
+    
+    margin-bottom: 4rem;
+}
+.home{
+    padding: 0.8rem;
+}
+.view{
+    text-align: center;
+    line-height: 3;
+}
+.view a{
+    color: black;
+    text-decoration: none;
+}
+.nine{
+    background-color: #a6d8f0;
+    padding-top: 6rem;
+}
+.down{
+    text-align: center;
+    line-height: 2;
+}
+input{
+    width: 14.375rem;
+    height: 2.5625rem;
+}
+form{
+    line-height: 2;
+    width: 45.75rem;
+    height: 33rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+}
+label{
+    display: block;
+}
+.non{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+textarea{
+    width: 31.87rem;
+    height: 5.75rem;
+}
+.last{
+    margin-left: 6.9rem;
+    margin-right: 6.9rem;
+    margin-top: 3rem;
+}
+.butt{
+    text-align: center;
+    line-height: 8;
+    
+}
+.butt button{
+    background-color: black;
+    color: white;
+    border: black solid 1px;
+    border-radius: 0;
+    padding: 0.8rem;
+    padding-left: 7.65625rem;
+    padding-right: 7.65625rem;
+}
+footer{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 14px;
+    font-family: heebo-light, sans-serif;
+}.trip{
+    border-right: black solid 1px;
+    padding: 0.3rem;
 }
