@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: Helvetica;
 }
-
 .top {
     display: flex;
     text-align: center;
@@ -19,7 +18,6 @@
     background-color: rgb(237, 237, 237);
     letter-spacing: 1.05px;
 }
-
 button {
     font-size: 1rem;
     padding: 4px;
@@ -30,39 +28,43 @@ button {
     border: blue solid 1px;
     cursor: pointer;
 }
-
 .top h2 {
     border-right: black solid 1px;
     padding-right: 12px;
 }
-
 .two ul {
     display: flex;
     list-style: none;
     justify-content: center;
 }
-
 .two {
     height: 70vh;
-    /* background-image: url(./pilot.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-image: url(./land.jpg);
+    background-repeat: no-repeat;
+    background-size: 99vw;
+    background-position: center;
 }
-
 .two h1 {
     text-align: center;
     padding-bottom: 6rem;
     font-size: 6.9rem;
     padding-top: 9rem;
 }
-
 .two a {
     text-decoration: none;
-    color: black;
-    padding-left: 5.5rem;
-    padding-right: 5.5rem;
+    color: rgb(209, 207, 207);
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    padding: 0.4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
-
+.two a:hover{
+    background-color: rgb(209, 207, 207);
+    color: black;
+    transition: 0.6s;
+    border-radius: 1.5rem;
+}
 .three h1 {
     text-align: center;
     font-size: 4.3rem;
@@ -70,12 +72,10 @@ button {
     margin-bottom: 2rem;
     padding-top: 9.5rem;
 }
-
 .three p {
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
-
 .three {
     text-align: center;
     background-image: url(./img.avif);
@@ -87,11 +87,9 @@ button {
     padding-top: 1rem;
     margin-bottom: 1rem;
 }
-
 .three .third {
     margin-bottom: 4rem;
 }
-
 .three a {
     text-decoration: none;
     color: #a9dcf6;
@@ -104,35 +102,38 @@ button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.437);
     transition: box-shadow 0.3s ease;
 }
-
+.three a:hover{
+    background-color: #8b7cd6;
+    color: aliceblue;
+    transition: 0.6s ease-in-out;
+}
 .forth {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 4rem;
 }
-
 .four {
     align-items: center;
-    width: 39.5rem;
-    padding: 2rem;
+    width: 29rem;
+    line-height: 2;
+    margin: 2rem;
+    margin-left: 2rem;
+    /* padding: 2rem; */
 }
-
 .four p {
     margin-bottom: 1rem;
     font-size: 1.1rem;
     letter-spacing: 1.05px;
 }
-
 .four h1 {
     margin-bottom: 2.5rem;
     font-size: 3rem;
 }
-
 .four .forthe {
     margin-bottom: 3rem;
 }
-
 .four a {
     text-decoration: none;
     color: #a9dcf6;
@@ -145,36 +146,36 @@ button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.437);
     transition: box-shadow 0.3s ease;
 }
-
+.four a:hover{
+    background-color: #8b7cd6;
+    color: aliceblue;
+    transition: 0.6s ease-in-out;
+}
 .forth img {
     width: 42rem;
     height: 100vh;
+    margin: 0.5rem;
 }
-
 .five {
     text-align: center;
     line-height: 2;
     background-color: #a9dcf6;
     font-size: 1.1rem;
     letter-spacing: 1.05px;
-    width: 99vw;
+    width: 98vw;
 }
-
 .five h1 {
     color: white;
     font-size: 3rem;
 }
-
 .five .sec {
     color: black;
 }
-
 .five .fiv {
     width: 35%;
     margin-left: auto;
     margin-right: auto;
 }
-
 .fifth {
     display: flex;
     justify-content: center;
@@ -183,14 +184,15 @@ button {
     margin-right: auto;
     line-height: 2;
 }
-
 .fifth h1 {
     font-size: 4rem;
 }
-
 .fifth .fivee {
-    width: 21rem;
+    width: 20.5rem;
     padding: 2rem;
+}
+.hang a{
+    display: none;
 }
 .six {
     text-align: center;
@@ -211,11 +213,16 @@ button {
     font-size: 2.5rem;
     padding-right: 26rem;
     padding-left: 2rem;
+    color: black;
 }
 .bi-chevron-right{
     margin-left: 26rem;
     margin-right: 2rem;
     font-size: 2.5rem;
+    color: black;
+}
+.hide{
+    display: none;
 }
 .dots{
     text-align: center;
@@ -235,13 +242,18 @@ button {
 }
 .pic{
     display: flex;
-    /* border: blue solid 2px; */
     gap: 1.8rem;
     justify-content: center;
 }
 .size img{
     width: 24.925rem;
     height: 20rem;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.437);
+    transition: box-shadow 0.3s ease;
+     transition: transform 0.6s ease;
+}
+.size img:hover{
+    transform: scale(0.95);
 }
 .size{
     border: rgb(161, 161, 161) solid 2px;
@@ -257,10 +269,19 @@ button {
 .view{
     text-align: center;
     line-height: 3;
+    transition: transform 0.3s ease;
 }
 .view a{
     color: black;
     text-decoration: none;
+    padding: 0.4rem;
+}
+.view a:hover{
+    background-color: black;
+    color: #e8e6ed;
+}
+.view:hover{
+    transform: scale(0.92);
 }
 .nine{
     background-color: #a6d8f0;
@@ -273,6 +294,10 @@ button {
 input{
     width: 14.375rem;
     height: 2.5625rem;
+}
+input:hover{
+    border: black solid 2px;
+    transition: 0.4s ease-in-out;
 }
 form{
     line-height: 2;
@@ -296,6 +321,10 @@ textarea{
     width: 31.87rem;
     height: 5.75rem;
 }
+textarea:hover{
+    border: solid black 2px;
+    transition: 0.4s ease-in-out;
+}
 .last{
     margin-left: 6.9rem;
     margin-right: 6.9rem;
@@ -304,7 +333,6 @@ textarea{
 .butt{
     text-align: center;
     line-height: 8;
-    
 }
 .butt button{
     background-color: black;
@@ -312,8 +340,13 @@ textarea{
     border: black solid 1px;
     border-radius: 0;
     padding: 0.8rem;
-    padding-left: 7.65625rem;
-    padding-right: 7.65625rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.butt button:hover{
+    background-color: #a6d8f0;
+    color: black;
+    transition: 0.4s ease-in-out;
 }
 footer{
     text-align: center;
